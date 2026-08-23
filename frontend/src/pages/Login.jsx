@@ -5,7 +5,7 @@ import { useAuth } from '../context/AuthContext'
 import truckBg from '../assets/truck-bg.png'
 import './Login.css'
 
-const ROLES = ['Dispatcher', 'HR', 'Moliyachi', 'Fleet manager']
+const ROLES = ['Dispatcher', 'HR', 'Finance', 'Fleet manager']
 
 export default function Login() {
   const { login } = useAuth()
@@ -46,8 +46,8 @@ export default function Login() {
         animate={{ opacity: 1, y: 0, scale: 1 }}
         transition={{ duration: 0.4, ease: 'easeOut', delay: 0.08 }}
       >
-        <div className="login-card-title">Kirish</div>
-        <div className="login-card-sub">Hisobingizga kirish uchun ma'lumotlarni kiriting</div>
+        <div className="login-card-title">Sign in</div>
+        <div className="login-card-sub">Enter your details to access your account</div>
 
         <form onSubmit={handleSubmit}>
           <div className="login-field">
@@ -58,12 +58,12 @@ export default function Login() {
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="ism@kompaniya.com"
+              placeholder="name@company.com"
             />
           </div>
 
           <div className="login-field">
-            <label className="login-field-label" htmlFor="password">Parol</label>
+            <label className="login-field-label" htmlFor="password">Password</label>
             <input
               id="password"
               type="password"
@@ -74,8 +74,8 @@ export default function Login() {
             />
           </div>
 
-          <div className="login-field" role="radiogroup" aria-label="Rol">
-            <label className="login-field-label" id="login-role-label">Rol</label>
+          <div className="login-field" role="radiogroup" aria-label="Role">
+            <label className="login-field-label" id="login-role-label">Role</label>
             <div className="login-role-grid">
               {ROLES.map((r) => (
                 <motion.button
@@ -97,18 +97,18 @@ export default function Login() {
 
           <div className="login-row-between">
             <label className="login-remember">
-              <input type="checkbox" /> Eslab qolish
+              <input type="checkbox" /> Remember me
             </label>
-            <button type="button" className="login-forgot">Parolni unutdingizmi?</button>
+            <button type="button" className="login-forgot">Forgot password?</button>
           </div>
 
-          <button type="submit" className="login-btn">Kirish</button>
+          <button type="submit" className="login-btn">Sign in</button>
         </form>
 
-        <div className="login-divider">yoki</div>
+        <div className="login-divider">or</div>
 
         <div className="login-signup-row">
-          Hisobingiz yo'qmi? <Link to="/register"><b>Ro'yxatdan o'tish</b></Link>
+          Don't have an account? <Link to="/register"><b>Sign up</b></Link>
         </div>
       </motion.div>
     </div>

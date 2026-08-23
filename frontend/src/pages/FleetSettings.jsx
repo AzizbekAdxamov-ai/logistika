@@ -70,33 +70,33 @@ export default function FleetSettings() {
     <div className="settings-page">
       <div className="page-head-plain">
         <div className="page-title">Settings</div>
-        <div className="page-sub">Profil, ogohlantirish chegaralari va bildirishnomalarni boshqarish</div>
+        <div className="page-sub">Manage your profile, alert thresholds and notifications</div>
       </div>
 
       <div className="settings-grid">
         <div>
           <div className="panel">
-            <div className="panel-head"><div className="panel-title">Profil</div></div>
+            <div className="panel-head"><div className="panel-title">Profile</div></div>
             <form className="settings-body" onSubmit={handleSave}>
               <div className="settings-profile-row">
                 <div className="settings-avatar">{initials(name)}</div>
                 <div className="settings-profile-meta">
-                  <div className="settings-profile-name">{name || 'Ism kiritilmagan'}</div>
+                  <div className="settings-profile-name">{name || 'No name set'}</div>
                   <div className="settings-profile-role">Fleet manager{company ? ' · ' + company : ''}</div>
                 </div>
               </div>
 
               <div className="settings-field">
-                <label htmlFor="fs-name">To'liq ism</label>
-                <input id="fs-name" value={name} onChange={(e) => setName(e.target.value)} placeholder="Aziz Karimov" />
+                <label htmlFor="fs-name">Full name</label>
+                <input id="fs-name" value={name} onChange={(e) => setName(e.target.value)} placeholder="John Miller" />
               </div>
               <div className="settings-field">
-                <label htmlFor="fs-company">Kompaniya nomi</label>
+                <label htmlFor="fs-company">Company name</label>
                 <input id="fs-company" value={company} onChange={(e) => setCompany(e.target.value)} placeholder="Nova Freight LLC" />
               </div>
 
               <div className="settings-save-row">
-                <button type="submit" className="settings-save-btn">O'zgarishlarni saqlash</button>
+                <button type="submit" className="settings-save-btn">Save changes</button>
                 <AnimatePresence>
                   {saved && (
                     <motion.span
@@ -106,7 +106,7 @@ export default function FleetSettings() {
                       exit={{ opacity: 0 }}
                       transition={{ duration: 0.2, ease: 'easeOut' }}
                     >
-                      Saqlandi
+                      Saved
                     </motion.span>
                   )}
                 </AnimatePresence>
@@ -115,18 +115,18 @@ export default function FleetSettings() {
           </div>
 
           <div className="panel">
-            <div className="panel-head"><div className="panel-title">Parol</div></div>
+            <div className="panel-head"><div className="panel-title">Password</div></div>
             <div className="settings-body">
               <div className="settings-field">
-                <label htmlFor="fs-current-pw">Joriy parol</label>
+                <label htmlFor="fs-current-pw">Current password</label>
                 <input id="fs-current-pw" type="password" placeholder="••••••••" />
               </div>
               <div className="settings-field">
-                <label htmlFor="fs-new-pw">Yangi parol</label>
+                <label htmlFor="fs-new-pw">New password</label>
                 <input id="fs-new-pw" type="password" placeholder="••••••••" />
               </div>
               <div className="settings-save-row">
-                <button type="button" className="settings-save-btn">Parolni yangilash</button>
+                <button type="button" className="settings-save-btn">Update password</button>
               </div>
             </div>
           </div>
@@ -134,12 +134,12 @@ export default function FleetSettings() {
 
         <div>
           <div className="panel">
-            <div className="panel-head"><div className="panel-title">Ko'rinish</div></div>
+            <div className="panel-head"><div className="panel-title">Appearance</div></div>
             <div className="settings-body">
               <div className="settings-row">
                 <div>
                   <div className="settings-row-label">Theme</div>
-                  <div className="settings-row-desc">Dark va light interfeys o'rtasida almashtirish</div>
+                  <div className="settings-row-desc">Switch between dark and light interface</div>
                 </div>
                 <div className="settings-theme-switch">
                   <button className={theme === 'dark' ? 'active' : ''} onClick={() => setTheme('dark')}>Dark</button>
@@ -150,10 +150,10 @@ export default function FleetSettings() {
           </div>
 
           <div className="panel">
-            <div className="panel-head"><div className="panel-title">Ogohlantirish chegaralari</div></div>
+            <div className="panel-head"><div className="panel-title">Alert thresholds</div></div>
             <div className="settings-body">
               <div className="settings-field">
-                <label htmlFor="fs-fuel-th">Past yoqilg'i chegarasi (%)</label>
+                <label htmlFor="fs-fuel-th">Low fuel threshold (%)</label>
                 <input
                   id="fs-fuel-th" type="number" min="0" max="100"
                   value={thresholds.fuelPct}
@@ -161,7 +161,7 @@ export default function FleetSettings() {
                 />
               </div>
               <div className="settings-field">
-                <label htmlFor="fs-idle-th">Harakatsizlik chegarasi (soat)</label>
+                <label htmlFor="fs-idle-th">Idle time threshold (hours)</label>
                 <input
                   id="fs-idle-th" type="number" min="0"
                   value={thresholds.idleHours}
@@ -169,7 +169,7 @@ export default function FleetSettings() {
                 />
               </div>
               <div className="settings-field" style={{ marginBottom: 0 }}>
-                <label htmlFor="fs-tire-th">Shina holati chegarasi (%)</label>
+                <label htmlFor="fs-tire-th">Tire tread threshold (%)</label>
                 <input
                   id="fs-tire-th" type="number" min="0" max="100"
                   value={thresholds.tireWearPct}
@@ -180,40 +180,40 @@ export default function FleetSettings() {
           </div>
 
           <div className="panel">
-            <div className="panel-head"><div className="panel-title">Bildirishnomalar</div></div>
+            <div className="panel-head"><div className="panel-title">Notifications</div></div>
             <div className="settings-body">
               <div className="settings-row">
                 <div>
-                  <div className="settings-row-label">Texnik xizmat muddati</div>
-                  <div className="settings-row-desc">Xizmat muddati yaqinlashganda yoki o'tganda ogohlantirish</div>
+                  <div className="settings-row-label">Service due</div>
+                  <div className="settings-row-desc">Alert when service is coming up or past due</div>
                 </div>
                 <Toggle checked={notif.maintenanceDue} onChange={(v) => setNotif((n) => ({ ...n, maintenanceDue: v }))} />
               </div>
               <div className="settings-row">
                 <div>
-                  <div className="settings-row-label">Past yoqilg'i</div>
-                  <div className="settings-row-desc">Belgilangan chegaradan pastga tushganda xabar berish</div>
+                  <div className="settings-row-label">Low fuel</div>
+                  <div className="settings-row-desc">Notify when fuel drops below the set threshold</div>
                 </div>
                 <Toggle checked={notif.lowFuel} onChange={(v) => setNotif((n) => ({ ...n, lowFuel: v }))} />
               </div>
               <div className="settings-row">
                 <div>
-                  <div className="settings-row-label">Shina holati</div>
-                  <div className="settings-row-desc">Shina eskirishi chegaradan oshganda ogohlantirish</div>
+                  <div className="settings-row-label">Tire tread</div>
+                  <div className="settings-row-desc">Alert when tire wear passes the threshold</div>
                 </div>
                 <Toggle checked={notif.tireWear} onChange={(v) => setNotif((n) => ({ ...n, tireWear: v }))} />
               </div>
               <div className="settings-row">
                 <div>
-                  <div className="settings-row-label">Uzoq harakatsizlik</div>
-                  <div className="settings-row-desc">Truck belgilangan soatdan ko'p harakatsiz tursa xabar berish</div>
+                  <div className="settings-row-label">Extended idle</div>
+                  <div className="settings-row-desc">Notify when a truck sits idle longer than the set hours</div>
                 </div>
                 <Toggle checked={notif.idleTime} onChange={(v) => setNotif((n) => ({ ...n, idleTime: v }))} />
               </div>
               <div className="settings-row">
                 <div>
-                  <div className="settings-row-label">Hujjat muddati</div>
-                  <div className="settings-row-desc">Ro'yxatdan o'tish, sug'urta va boshqa hujjatlar muddati yaqinlashganda</div>
+                  <div className="settings-row-label">Document expiry</div>
+                  <div className="settings-row-desc">Alert when registration, insurance or other paperwork is close to expiring</div>
                 </div>
                 <Toggle checked={notif.documentExpiry} onChange={(v) => setNotif((n) => ({ ...n, documentExpiry: v }))} />
               </div>
@@ -221,14 +221,14 @@ export default function FleetSettings() {
           </div>
 
           <div className="panel">
-            <div className="panel-head"><div className="panel-title">Hisob</div></div>
+            <div className="panel-head"><div className="panel-title">Account</div></div>
             <div className="settings-body">
               <div className="settings-row">
                 <div>
-                  <div className="settings-row-label">Chiqish</div>
-                  <div className="settings-row-desc">Shu qurilmadagi sessiyani tugatish</div>
+                  <div className="settings-row-label">Sign out</div>
+                  <div className="settings-row-desc">End your session on this device</div>
                 </div>
-                <button type="button" className="settings-logout-btn" onClick={handleLogout}>Chiqish</button>
+                <button type="button" className="settings-logout-btn" onClick={handleLogout}>Sign out</button>
               </div>
             </div>
           </div>

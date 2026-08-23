@@ -7,7 +7,7 @@ function ChartTooltip({ active, payload, label }) {
   return (
     <div className="chart-tooltip">
       <div className="chart-tooltip-label">{label}</div>
-      <div className="chart-tooltip-row">Yoqilg'i: <b>{payload[0].value}%</b></div>
+      <div className="chart-tooltip-row">Fuel: <b>{payload[0].value}%</b></div>
     </div>
   )
 }
@@ -15,8 +15,8 @@ function ChartTooltip({ active, payload, label }) {
 export default function FuelTrendChart({ data }) {
   return (
     <div className="widget area-widget">
-      <div className="widget-title">Yoqilg'i darajasi — so'nggi 7 kun</div>
-      <div className="widget-sub">Foiz bo'yicha</div>
+      <div className="widget-title">Fuel level — last 7 days</div>
+      <div className="widget-sub">Percent of tank</div>
       <ResponsiveContainer width="100%" height={110}>
         <AreaChart data={data} margin={{ top: 4, right: 8, left: -20, bottom: 0 }}>
           <defs>

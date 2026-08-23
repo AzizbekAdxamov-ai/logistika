@@ -19,7 +19,7 @@ function Delta({ deltaPct, up, betterWhenUp = true }) {
   const good = up === betterWhenUp
   return (
     <div className={'truck-stat-delta' + (good ? ' good' : ' bad')}>
-      {up ? '↑' : '↓'} {deltaPct}% {up ? 'oshdi' : 'pasaydi'} — o'tgan haftaga nisbatan
+      {up ? '↑' : '↓'} {deltaPct}% {up ? 'up' : 'down'} vs last week
     </div>
   )
 }
@@ -32,8 +32,8 @@ export default function TruckDetail() {
   if (!truck) {
     return (
       <div className="panel truck-detail-missing">
-        <p>Truck topilmadi.</p>
-        <Link to="/fleet">← Fleet ro'yxatiga qaytish</Link>
+        <p>Truck not found.</p>
+        <Link to="/fleet">← Back to fleet</Link>
       </div>
     )
   }
@@ -45,7 +45,7 @@ export default function TruckDetail() {
       <div className="truck-detail-crumbs">
         <button className="truck-detail-back" onClick={() => navigate('/fleet')}>← Fleet</button>
         <span className="truck-detail-sep">/</span>
-        <span className="truck-detail-crumb-current">{truck.id} → Statistika</span>
+        <span className="truck-detail-crumb-current">{truck.id} → Performance</span>
       </div>
 
       <div className="truck-detail-head">
@@ -58,37 +58,37 @@ export default function TruckDetail() {
             </span>
           </div>
           <div className="truck-detail-meta">
-            {truck.make} {truck.model} · {truck.year} · {truck.mileage.toLocaleString()} mi bosib o'tilgan
+            {truck.make} {truck.model} · {truck.year} · {truck.mileage.toLocaleString()} mi on odometer
           </div>
         </div>
         <div className="truck-detail-actions">
           <button className="truck-detail-btn" disabled={!truck.driver}>
-            <Envelope size={14} aria-hidden="true" /> Haydovchiga yozish
+            <Envelope size={14} aria-hidden="true" /> Message driver
           </button>
           <button className="truck-detail-btn primary" disabled={!truck.driver}>
-            <Phone size={14} aria-hidden="true" /> Qo'ng'iroq qilish
+            <Phone size={14} aria-hidden="true" /> Call driver
           </button>
         </div>
       </div>
 
       <div className="truck-stat-mini-row">
         <div className="truck-stat-mini">
-          <div className="truck-stat-mini-label">Bu hafta bosilgan masofa</div>
+          <div className="truck-stat-mini-label">Miles this week</div>
           <div className="truck-stat-mini-value mono">{truck.weeklyDistance.value.toLocaleString()} mi</div>
           <Delta {...truck.weeklyDistance} betterWhenUp />
         </div>
         <div className="truck-stat-mini">
-          <div className="truck-stat-mini-label">Yoqilg'i sarfi</div>
+          <div className="truck-stat-mini-label">Fuel economy</div>
           <div className="truck-stat-mini-value mono">{truck.mpg.value} mpg</div>
           <Delta {...truck.mpg} betterWhenUp />
         </div>
         <div className="truck-stat-mini">
-          <div className="truck-stat-mini-label">Bo'sh turgan vaqt</div>
+          <div className="truck-stat-mini-label">Idle time</div>
           <div className="truck-stat-mini-value mono">{truck.idleHours.value} h</div>
           <Delta {...truck.idleHours} betterWhenUp={false} />
         </div>
         <div className="truck-stat-mini">
-          <div className="truck-stat-mini-label">Xizmat harajati (oy)</div>
+          <div className="truck-stat-mini-label">Service cost (mo.)</div>
           <div className="truck-stat-mini-value mono">${truck.maintenanceCost.value.toLocaleString()}</div>
           <Delta {...truck.maintenanceCost} betterWhenUp={false} />
         </div>

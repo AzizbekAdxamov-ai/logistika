@@ -7,7 +7,7 @@ import '../components/dashboard/Panel.css'
 import './PageHeader.css'
 import './Documents.css'
 
-const STATUS_LABEL = { ready: 'Tayyor', pending: 'Kutilmoqda', expiring: 'Muddati yaqinlashmoqda' }
+const STATUS_LABEL = { ready: 'Ready', pending: 'Pending', expiring: 'Expiring soon' }
 
 function truckRegion(truckId) {
   const truck = trucks.find((t) => t.id === truckId)
@@ -48,9 +48,9 @@ export default function FleetDocuments() {
   ], [])
 
   const TABS = [
-    { key: 'all', label: 'Barchasi', match: () => true },
-    { key: 'vehicle', label: 'Texnika hujjatlari', match: (d) => d.category === 'vehicle' },
-    { key: 'company', label: 'Kompaniya', match: (d) => d.category === 'company' },
+    { key: 'all', label: 'All', match: () => true },
+    { key: 'vehicle', label: 'Vehicle documents', match: (d) => d.category === 'vehicle' },
+    { key: 'company', label: 'Company', match: (d) => d.category === 'company' },
   ]
 
   const filtered = useMemo(() => {
@@ -69,7 +69,7 @@ export default function FleetDocuments() {
       <div className="page-head">
         <div>
           <div className="page-title">Documents</div>
-          <div className="page-sub">Texnika va kompaniya hujjatlari bitta joyda</div>
+          <div className="page-sub">Vehicle and company paperwork in one place</div>
         </div>
       </div>
 
@@ -90,17 +90,17 @@ export default function FleetDocuments() {
           <MagnifyingGlass size={15} aria-hidden="true" />
           <input
             type="text"
-            placeholder="Hujjat nomi yoki truck ID..."
+            placeholder="Search by document name or truck ID..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />
         </div>
         <div className="page-toolbar-spacer" />
-        <div className="page-result-count">{filtered.length} hujjat</div>
+        <div className="page-result-count">{filtered.length} documents</div>
       </div>
 
       <div className="panel">
-        {filtered.length === 0 && <div className="page-empty">Bu filtrga mos hujjat yo'q.</div>}
+        {filtered.length === 0 && <div className="page-empty">No documents match this filter.</div>}
         <AnimatePresence initial={false}>
           {filtered.map((doc) => (
             <motion.div
@@ -117,7 +117,7 @@ export default function FleetDocuments() {
                 <div className="doc-name">{doc.name}</div>
                 <div className="doc-meta">
                   {doc.type} · {doc.size}
-                  {doc.expires ? <> · amal qiladi {doc.expires} gacha</> : null}
+                  {doc.expires ? <> · expires {doc.expires}</> : null}
                   {doc.truckId ? <> · {truckRegion(doc.truckId)}</> : null}
                 </div>
               </div>
@@ -126,7 +126,7 @@ export default function FleetDocuments() {
               </div>
               <span className={'doc-status ' + doc.status}>{STATUS_LABEL[doc.status]}</span>
               <div className={'doc-action' + (doc.status === 'pending' ? ' disabled' : '')}>
-                {doc.status === 'pending' ? '—' : "Ko'rish"}
+                {doc.status === 'pending' ? '—' : 'View'}
               </div>
             </motion.div>
           ))}

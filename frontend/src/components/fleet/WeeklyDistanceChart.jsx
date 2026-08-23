@@ -7,7 +7,7 @@ function ChartTooltip({ active, payload, label }) {
   return (
     <div className="chart-tooltip">
       <div className="chart-tooltip-label">{label}</div>
-      <div className="chart-tooltip-row">Masofa: <b>{payload[0].value.toLocaleString()} mi</b></div>
+      <div className="chart-tooltip-row">Miles: <b>{payload[0].value.toLocaleString()} mi</b></div>
     </div>
   )
 }
@@ -15,8 +15,8 @@ function ChartTooltip({ active, payload, label }) {
 export default function WeeklyDistanceChart({ data }) {
   return (
     <div className="widget">
-      <div className="widget-title">Haftalik masofa</div>
-      <div className="widget-sub">Milya, kun bo'yicha</div>
+      <div className="widget-title">Weekly miles</div>
+      <div className="widget-sub">Miles per day</div>
       <ResponsiveContainer width="100%" height={100}>
         <BarChart data={data} margin={{ top: 4, right: 4, left: -28, bottom: 0 }}>
           <XAxis

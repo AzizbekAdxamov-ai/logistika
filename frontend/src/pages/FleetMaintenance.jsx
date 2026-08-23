@@ -8,11 +8,11 @@ import './PageHeader.css'
 import './FleetMaintenance.css'
 
 const TABS = [
-  { key: 'all', label: 'Barchasi', match: () => true },
-  { key: 'overdue', label: "Muddati o'tgan", match: (m) => m.status === 'overdue' },
-  { key: 'due', label: 'Yaqinda kerak', match: (m) => m.status === 'due' },
-  { key: 'scheduled', label: 'Rejalashtirilgan', match: (m) => m.status === 'scheduled' },
-  { key: 'done', label: 'Bajarilgan', match: (m) => m.status === 'done' },
+  { key: 'all', label: 'All', match: () => true },
+  { key: 'overdue', label: 'Overdue', match: (m) => m.status === 'overdue' },
+  { key: 'due', label: 'Due soon', match: (m) => m.status === 'due' },
+  { key: 'scheduled', label: 'Scheduled', match: (m) => m.status === 'scheduled' },
+  { key: 'done', label: 'Completed', match: (m) => m.status === 'done' },
 ]
 
 function truckMeta(truckId) {
@@ -41,25 +41,25 @@ export default function FleetMaintenance() {
       <div className="page-head">
         <div>
           <div className="page-title">Maintenance</div>
-          <div className="page-sub">Texnik xizmat jadvali va bajarilgan ishlar tarixi</div>
+          <div className="page-sub">Service schedule and completed work history</div>
         </div>
       </div>
 
       <div className="fleet-summary-row">
         <div className="fleet-summary-card">
-          <div className="fleet-summary-label">Muddati o'tgan</div>
+          <div className="fleet-summary-label">Overdue</div>
           <div className="fleet-summary-value red">{overdueCount}</div>
         </div>
         <div className="fleet-summary-card">
-          <div className="fleet-summary-label">Yaqinda kerak</div>
+          <div className="fleet-summary-label">Due soon</div>
           <div className="fleet-summary-value amber">{dueCount}</div>
         </div>
         <div className="fleet-summary-card">
-          <div className="fleet-summary-label">Rejalashtirilgan</div>
+          <div className="fleet-summary-label">Scheduled</div>
           <div className="fleet-summary-value">{scheduledCount}</div>
         </div>
         <div className="fleet-summary-card">
-          <div className="fleet-summary-label">Shu oy sarflangan</div>
+          <div className="fleet-summary-label">Spent this month</div>
           <div className="fleet-summary-value mono">${monthCost.toLocaleString()}</div>
         </div>
       </div>
@@ -77,7 +77,7 @@ export default function FleetMaintenance() {
       </div>
 
       <div className="panel">
-        {filtered.length === 0 && <div className="page-empty">Bu toifada texnik xizmat yozuvi yo'q.</div>}
+        {filtered.length === 0 && <div className="page-empty">No service records in this category.</div>}
         <AnimatePresence initial={false}>
           {filtered.map((m) => (
             <motion.button
@@ -96,14 +96,14 @@ export default function FleetMaintenance() {
                 <div className="maint-meta">{m.truckId} · {truckMeta(m.truckId)}</div>
               </div>
               <div className="maint-due">
-                <div className="maint-due-label">Muddati</div>
+                <div className="maint-due-label">Due</div>
                 <div className="maint-due-value mono">
                   {m.dueDate}
                   {m.dueMileage ? <> · {m.dueMileage.toLocaleString()} mi</> : null}
                 </div>
               </div>
               <div className="maint-last">
-                <div className="maint-due-label">Oxirgi xizmat</div>
+                <div className="maint-due-label">Last service</div>
                 <div className="maint-due-value mono">{m.lastService}</div>
               </div>
               <div className="maint-cost mono">{typeof m.cost === 'number' ? '$' + m.cost.toLocaleString() : '—'}</div>

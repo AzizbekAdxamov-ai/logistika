@@ -5,7 +5,7 @@ import { useAuth } from '../context/AuthContext'
 import truckBg from '../assets/truck-bg.png'
 import './Login.css'
 
-const ROLES = ['Dispatcher', 'HR', 'Moliyachi', 'Fleet manager']
+const ROLES = ['Dispatcher', 'HR', 'Finance', 'Fleet manager']
 
 export default function Register() {
   const { login } = useAuth()
@@ -43,22 +43,22 @@ export default function Register() {
         animate={{ opacity: 1, y: 0, scale: 1 }}
         transition={{ duration: 0.4, ease: 'easeOut', delay: 0.08 }}
       >
-        <div className="login-card-title">Ro'yxatdan o'tish</div>
-        <div className="login-card-sub">Jamoangiz uchun ish maydonini yarating</div>
+        <div className="login-card-title">Create account</div>
+        <div className="login-card-sub">Set up a workspace for your team</div>
 
         <form onSubmit={handleSubmit}>
           <div className="login-field">
-            <label className="login-field-label" htmlFor="name">To'liq ism</label>
+            <label className="login-field-label" htmlFor="name">Full name</label>
             <input
               id="name"
               required
               value={name}
               onChange={(e) => setName(e.target.value)}
-              placeholder="Aziz Karimov"
+              placeholder="John Miller"
             />
           </div>
           <div className="login-field">
-            <label className="login-field-label" htmlFor="company">Kompaniya / jamoa nomi</label>
+            <label className="login-field-label" htmlFor="company">Company / team name</label>
             <input
               id="company"
               required
@@ -75,11 +75,11 @@ export default function Register() {
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="ism@kompaniya.com"
+              placeholder="name@company.com"
             />
           </div>
           <div className="login-field">
-            <label className="login-field-label" htmlFor="reg-password">Parol</label>
+            <label className="login-field-label" htmlFor="reg-password">Password</label>
             <input
               id="reg-password"
               type="password"
@@ -89,8 +89,8 @@ export default function Register() {
               placeholder="••••••••"
             />
           </div>
-          <div className="login-field" role="radiogroup" aria-label="Rol">
-            <label className="login-field-label" id="role-label">Rol</label>
+          <div className="login-field" role="radiogroup" aria-label="Role">
+            <label className="login-field-label" id="role-label">Role</label>
             <div className="login-role-grid">
               {ROLES.map((r) => (
                 <motion.button
@@ -109,13 +109,13 @@ export default function Register() {
               ))}
             </div>
           </div>
-          <button type="submit" className="login-btn">Hisob yaratish</button>
+          <button type="submit" className="login-btn">Create account</button>
         </form>
 
-        <div className="login-divider">yoki</div>
+        <div className="login-divider">or</div>
 
         <div className="login-signup-row">
-          Hisobingiz bormi? <Link to="/login"><b>Kirish</b></Link>
+          Already have an account? <Link to="/login"><b>Sign in</b></Link>
         </div>
       </motion.div>
     </div>

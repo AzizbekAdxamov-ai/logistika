@@ -31,7 +31,7 @@ export default function TruckCard({ truck, variants }) {
       <div className="truck-card-location">{truck.location}</div>
 
       <div className="truck-card-driver">
-        {truck.driver ? truck.driver : <span className="truck-card-unassigned">Haydovchi tayinlanmagan</span>}
+        {truck.driver ? truck.driver : <span className="truck-card-unassigned">No driver assigned</span>}
       </div>
 
       <div className="truck-card-fuel">
@@ -48,15 +48,15 @@ export default function TruckCard({ truck, variants }) {
       <div className="truck-card-stats">
         <div>
           <div className="truck-card-stat-val mono">{truck.mileage.toLocaleString()}</div>
-          <div className="truck-card-stat-lbl">mi bosilgan</div>
+          <div className="truck-card-stat-lbl">mi total</div>
         </div>
         <div>
           <div className="truck-card-stat-val mono">{truck.weeklyDistance.value.toLocaleString()}</div>
-          <div className="truck-card-stat-lbl">mi / hafta</div>
+          <div className="truck-card-stat-lbl">mi / week</div>
         </div>
       </div>
 
-      <Link to={'/fleet/trucks/' + truck.id} className="truck-card-stretched-link" aria-label={truck.id + ' statistikasini ochish'}></Link>
+      <Link to={'/fleet/trucks/' + truck.id} className="truck-card-stretched-link" aria-label={'Open ' + truck.id + ' details'}></Link>
     </motion.div>
   )
 }

@@ -8,13 +8,13 @@ import '../components/dashboard/AlertQueue.css'
 import './PageHeader.css'
 import './Alerts.css'
 
-const SEVERITY_LABEL = { critical: 'Kritik', warning: 'Ogohlantirish' }
+const SEVERITY_LABEL = { critical: 'Critical', warning: 'Warning' }
 
 const TABS = [
-  { key: 'all', label: 'Barchasi', match: () => true },
-  { key: 'critical', label: 'Kritik', match: (a) => a.severity === 'critical' },
-  { key: 'warning', label: 'Ogohlantirish', match: (a) => a.severity === 'warning' },
-  { key: 'resolved', label: 'Yopilgan', match: () => true },
+  { key: 'all', label: 'All', match: () => true },
+  { key: 'critical', label: 'Critical', match: (a) => a.severity === 'critical' },
+  { key: 'warning', label: 'Warning', match: (a) => a.severity === 'warning' },
+  { key: 'resolved', label: 'Resolved', match: () => true },
 ]
 
 export default function FleetAlerts() {
@@ -42,7 +42,7 @@ export default function FleetAlerts() {
       <div className="page-head">
         <div>
           <div className="page-title">Alerts</div>
-          <div className="page-sub">Fleet menejeri e'tiborini talab qiladigan hozirgi holatlar</div>
+          <div className="page-sub">Open items that need a fleet manager's attention</div>
         </div>
       </div>
 
@@ -62,7 +62,7 @@ export default function FleetAlerts() {
         <div className="alert-queue-list">
           {visible.length === 0 && (
             <div className="alert-queue-empty">
-              {tab === 'resolved' ? 'Hali yopilgan alert yo\'q.' : 'Bu toifada alert yo\'q.'}
+              {tab === 'resolved' ? 'No resolved alerts yet.' : 'No alerts in this category.'}
             </div>
           )}
           <AnimatePresence initial={false}>
@@ -89,14 +89,14 @@ export default function FleetAlerts() {
                 </div>
                 <div className="alert-queue-actions">
                   {alert.truckId && (
-                    <button className="load-link" aria-label="Truckni ochish" onClick={() => navigate('/fleet/trucks/' + alert.truckId)}>
+                    <button className="load-link" aria-label="Open truck" onClick={() => navigate('/fleet/trucks/' + alert.truckId)}>
                       {alert.truckId}
                     </button>
                   )}
                   {!resolved.includes(alert.id) && (
                     <button
                       className="resolve"
-                      aria-label="Yopish"
+                      aria-label="Resolve alert"
                       onClick={() => setResolved((r) => [...r, alert.id])}
                     >
                       <Check size={14} weight="bold" aria-hidden="true" />
@@ -104,7 +104,7 @@ export default function FleetAlerts() {
                   )}
                   {resolved.includes(alert.id) && (
                     <button
-                      aria-label="Qayta ochish"
+                      aria-label="Reopen alert"
                       onClick={() => setResolved((r) => r.filter((id) => id !== alert.id))}
                     >
                       <ArrowCounterClockwise size={14} aria-hidden="true" />

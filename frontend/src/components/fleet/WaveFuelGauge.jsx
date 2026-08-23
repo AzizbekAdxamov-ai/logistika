@@ -8,9 +8,9 @@ export default function WaveFuelGauge({ pct, gallons, capacity, lastFueledDate, 
 
   return (
     <div className="widget fuel-widget">
-      <div className="widget-title">Yoqilg'i darajasi</div>
-      <div className="widget-sub">Real vaqtda</div>
-      <div className="fuel-tank" role="img" aria-label={"Yoqilg'i darajasi " + pct + '%, ' + gallons + ' gallon'}>
+      <div className="widget-title">Fuel level</div>
+      <div className="widget-sub">Live</div>
+      <div className="fuel-tank" role="img" aria-label={'Fuel level ' + pct + '%, ' + gallons + ' gallons'}>
         <svg viewBox="0 0 400 120" preserveAspectRatio="none" className="wave1">
           <path
             d={`M0,${level} C50,${level - 8} 100,${level + 8} 150,${level} C200,${level - 8} 250,${level + 8} 300,${level} C350,${level - 8} 400,${level + 8} 400,${level} L400,${TANK_HEIGHT} L0,${TANK_HEIGHT} Z`}
@@ -29,7 +29,7 @@ export default function WaveFuelGauge({ pct, gallons, capacity, lastFueledDate, 
         </div>
       </div>
       <div className="fuel-caption">
-        Oxirgi to'ldirish: <b>{lastFueledDate}</b> — {lastFueledLocation}
+        Last fill-up: <b>{lastFueledDate}</b> — {lastFueledLocation}
       </div>
     </div>
   )

@@ -29,25 +29,25 @@ export default function FleetDashboard() {
       <div className="page-head">
         <div>
           <div className="page-title">Fleet overview</div>
-          <div className="page-sub">{trucks.length} ta truck — jonli holat va statistika</div>
+          <div className="page-sub">{trucks.length} trucks — live status and performance</div>
         </div>
       </div>
 
       <div className="fleet-summary-row">
         <div className="fleet-summary-card">
-          <div className="fleet-summary-label">Faol</div>
+          <div className="fleet-summary-label">Active</div>
           <div className="fleet-summary-value green">{activeCount}</div>
         </div>
         <div className="fleet-summary-card">
-          <div className="fleet-summary-label">Xizmatda</div>
+          <div className="fleet-summary-label">In maintenance</div>
           <div className="fleet-summary-value amber">{maintenanceCount}</div>
         </div>
         <div className="fleet-summary-card">
-          <div className="fleet-summary-label">Bo'sh turibdi</div>
+          <div className="fleet-summary-label">Idle</div>
           <div className="fleet-summary-value">{idleCount}</div>
         </div>
         <div className="fleet-summary-card">
-          <div className="fleet-summary-label">O'rtacha yoqilg'i</div>
+          <div className="fleet-summary-label">Avg fuel level</div>
           <div className="fleet-summary-value mono">{avgFuel}%</div>
         </div>
       </div>

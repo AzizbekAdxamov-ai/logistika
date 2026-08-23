@@ -22,7 +22,7 @@ export function TireRingItem({ pct, label }) {
 
   return (
     <div className="tire-item">
-      <div className="tire-ring" role="img" aria-label={label + ' shina holati: ' + pct + '%'}>
+      <div className="tire-ring" role="img" aria-label={label + ' tire tread: ' + pct + '%'}>
         <svg width="70" height="70">
           <circle className="tire-bg" cx="35" cy="35" r={RADIUS} />
           <circle
@@ -45,11 +45,11 @@ export function TireRingItem({ pct, label }) {
 export default function TireRing({ front, rear }) {
   return (
     <div className="widget">
-      <div className="widget-title">Shina holati</div>
-      <div className="widget-sub">Old / Orqa o'rtacha</div>
+      <div className="widget-title">Tire tread</div>
+      <div className="widget-sub">Front / rear average</div>
       <div className="tire-row">
-        <TireRingItem pct={front} label="Old" />
-        <TireRingItem pct={rear} label="Orqa" />
+        <TireRingItem pct={front} label="Front" />
+        <TireRingItem pct={rear} label="Rear" />
       </div>
     </div>
   )
