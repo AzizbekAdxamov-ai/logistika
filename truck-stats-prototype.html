@@ -54,7 +54,7 @@
   /* WAVE FUEL GAUGE */
   .fuel-widget{ display:flex; flex-direction:column; align-items:center; }
   .fuel-tank{ position:relative; width:120px; height:120px; border-radius:50%; overflow:hidden; background:var(--panel-3); border:2px solid var(--border); }
-  .fuel-tank svg{ position:absolute; bottom:0; left:0; width:200%; height:60px; }
+  .fuel-tank svg{ position:absolute; inset:0; width:200%; height:100%; }
   .wave1{ animation:waveMove 3.2s linear infinite; opacity:0.55; }
   .wave2{ animation:waveMove 4.5s linear infinite reverse; opacity:0.85; }
   @keyframes waveMove{ from{ transform:translateX(0); } to{ transform:translateX(-50%); } }
@@ -157,12 +157,12 @@
         <div class="widget fuel-widget">
           <div class="widget-title" style="align-self:flex-start;">Yoqilg'i darajasi</div>
           <div class="widget-sub" style="align-self:flex-start;">Real vaqtda</div>
-          <div class="fuel-tank">
-            <svg viewBox="0 0 400 60" preserveAspectRatio="none" class="wave1">
-              <path d="M0,30 C50,10 100,50 150,30 C200,10 250,50 300,30 C350,10 400,50 400,30 L400,60 L0,60 Z" fill="var(--blue)"/>
+          <div class="fuel-tank" role="img" aria-label="Yoqilg'i darajasi 68%, 163 gal">
+            <svg viewBox="0 0 400 120" preserveAspectRatio="none" class="wave1">
+              <path d="M0,38.4 C50,30.4 100,46.4 150,38.4 C200,30.4 250,46.4 300,38.4 C350,30.4 400,46.4 400,38.4 L400,120 L0,120 Z" fill="var(--blue)"/>
             </svg>
-            <svg viewBox="0 0 400 60" preserveAspectRatio="none" class="wave2">
-              <path d="M0,30 C60,50 120,10 180,30 C240,50 300,10 360,30 C400,45 400,30 400,30 L400,60 L0,60 Z" fill="var(--accent)"/>
+            <svg viewBox="0 0 400 120" preserveAspectRatio="none" class="wave2">
+              <path d="M0,38.4 C60,46.4 120,30.4 180,38.4 C240,46.4 300,30.4 360,38.4 C400,44.4 400,38.4 400,38.4 L400,120 L0,120 Z" fill="var(--accent)"/>
             </svg>
             <div class="fuel-label">
               <div class="fuel-pct">68%</div>

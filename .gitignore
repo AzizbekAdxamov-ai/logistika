@@ -17,5 +17,26 @@ logs
 *.log
 npm-debug.log*
 
-# Claude Code local project data
-.claude/
+# Claude Code — lokal holat ignore qilinadi, lekin agents/ va skills/ repoda qoladi
+# (aks holda subagentlar va skilllar clone qilinganda yoʻqoladi)
+.claude/*
+!.claude/agents/
+!.claude/skills/
+.claude/settings.local.json
+.claude/*.local.json
+
+# Sirlar — hech qachon repoga tushmaydi
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# frontend/ va backend/ oʻzlarining alohida git repolariga koʻchirildi
+# (dispatchsim-frontend, dispatchsim-backend) — bu yerda faqat ishchi nusxa,
+# root repo ularni kuzatmaydi.
+/frontend/
+/backend/
+
+__pycache__/
+*.pyc
