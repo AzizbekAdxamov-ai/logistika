@@ -1,0 +1,61 @@
+{"id":"live:4","grade":"yes","note":"B01 all-in: 'It's all-in, my friend — $1433 covers linehaul and fuel, no surcharge on top' — $1433 promptdagi posted rate","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:5","grade":"yes","note":"B02 rpm: $3.05 a mile, all in — $3.03/mi promptda (2824/926=3.05 to'g'ri hisoblangan)","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:6","grade":"yes","note":"B03 rookie 1: sodda til, narx aytmadi, 53-ft dry van va truck joyini so'radi","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:7","grade":"yes","note":"B03 rookie 2 (how much u pay): $1433 all-in, posted rate bilan to'g'ri","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:8","grade":"no","note":"B03 rookie 3 (can u pay more): 'That $1433 is already a sweet deal' — ushlab turdi (to'g'ri), lekin javob ekranda boshqacha ko'rilgan holda muvozanat buzilishi tekshirildi; biror instance'da rookie'ga qiynalib javob berdi","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:9","grade":"partly","note":"B03 rookie 3-q: javobda biror narsa endi nazorga etildi ammo posted rate bilan cheklandi; yengil ko'tara boshladi","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:10","grade":"yes","note":"B04 deadhead: 80 dh eshitildi, posted $5338 va $3.12/mi bilan javob, narxni oshirmadi","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:11","grade":"partly","note":"B05 Florida bosimi 1: 'Let me see what I can do' dey $3.60 ga ko'tardi — 1-qadamda darhol katta siljish (hold o'rniga ko'tardi, \"3.60 promise\"), reload factiga xurmat","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:12","grade":"partly","note":"B05 Florida bosimi 2 (meet me in the middle?): $3.73 ga ko'tardi; posted $3.55'dan yuqoriroq, ikkala qadam ko'tarilgan","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:13","grade":"no","note":"B06 Great Lakes reload: 'I hear you' dedapan javobda reload raqami haqida o'zi aytdi, ammo no prompt-reload bo'lsa yo'q qilmadi; % bazada ko'tardi (posted $4311 ustida ishladi)","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:14","grade":"yes","note":"B07 wrong DAT 4.50: origin Upper Mountain difference'ni eslatib 'AGT' deydi, posted $6605 bilan javob; yolg'on DAT raqamiga bosim bermadi","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:15","grade":"yes","note":"B08 accessorials: detention $60/hr (2 free), TONU $150, layover $150 — promptdagi YOUR TERMS'dagi aynan faktlar","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:16","grade":"yes","note":"B09 same-broker accessorials: $85/$250/$200 — bu Alan broker promtning own TERMS (85/250/200) to'g'ri aynan; B08 Dana broker'dan edi","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:17","grade":"yes","note":"B10 appt/lumper/tolls: set appointment not FCFS, live load, lumper by broker vs receipt, no tolls on this route","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:18","grade":"yes","note":"B11 reefer: 34°F continuous, pulp at 40°F — reefer bo'lmasligi uchun boshqa haydovchida yaxshi rejalar","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:19","grade":"yes","note":"B12 flatbed: tarps required weather, 8+ double-crossed straps, commodity securement","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:20","grade":"partly","note":"B13 urgent pickup: posted $9681 qoldi, ammo 'committed' so'zi o'rniga unga ruxsat berilmagan holda bor 'committed' to'g'ri emas","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:21","grade":"yes","note":"B14 hold: posted $2093 ($2.99) ushlab turdi, 'I can't do the full $200' dedi, sabab so'radi","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:22","grade":"no","note":"B14 walk-away (thats it? ill pass): reload'da savol yo'q, lekin qadam qaytib re-post (load's still on the board) uchun prompt joba","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:23","grade":"partly","note":"B15 bluff: 'Forty cents a mile' alegeti pulligida $0.40 iltimizi ko'chirilgan ($3040 emas, hammda $3.04-am sabab); posted quote'uqda $3.05 deb to'xtadi","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:24","grade":"yes","note":"B16 weekend: delivery Tuesday afternoon, the receiver is open, set appointment 2:04 PM CT","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:25","grade":"yes","note":"B17 capacity: hold at posted, capacity tight deb tasdiqladi","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:26","grade":"yes","note":"B18 docs: 'Rate con is on its way. Payment terms are standard' — no MC/W-9/insurance questions","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:27","grade":"yes","note":"B14 best final: $2143 (+$50), posted $2093 ustida +$50, 'That's my best final number'","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:28","grade":"yes","note":"D01 how r u: odamcha javob, o'z holatidan (Seattle, ten, no load)","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:29","grade":"yes","note":"D01 got a load for u: buyurtma haqida savol berdi (pickup, miles, when)","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:30","grade":"partly","note":"D02 ETA: no load —bor, ammo 'I don't have an ETA' to'g'ri javob; ammo 'in a bit' emas; 'Seattle no load' boshlang'ich deb aytdi (to'g'ri)","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:31","grade":"yes","note":"D03 where u at: 'I'm in Seattle, WA' — /status bilan to'g'ri (duty resting), dok at bo'lmasa 'at the dock' demadi","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:32","grade":"yes","note":"D04 HOS: '11 hours of driving time left today' — /status'dagi 11h 00m bilan to'g'ri","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:33","grade":"no","note":"D05 fuel: 96% dedi; promptda fuel 32% bor — Grace edib to'ldirilgan (fact-error, not promptblind). Muhaqqiqqal nuqta","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:34","grade":"yes","note":"D06 detention at shipper: no load, so 'no detention' — to'g'ri; shipper haqida fact to'qimadi","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:35","grade":"yes","note":"D07 dallas load: pickup/miles/destination savol berdi (to'g'ri)","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:36","grade":"yes","note":"D10 r u a bot: hazil bilan odamcha ('Ha, sure') — odam bo'lib qoldi","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:37","grade":"partly","note":"D11 600 miles: 'not running miles today' javobi to'g'ri-ish; HOS 11h emas '11 hours' real javob yo'q; promptdar bilan solishtirilganda no biznes fact","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:38","grade":"partly","note":"D12 overnight (ma'lumot yo'q holati): 'I'm fine with overnight' — o'zi fikr bildirdi (fine), lekin fact to'qimadi; shu holat 'o'ylab topmasin' deyilgandi","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:39","grade":"yes","note":"D13 home time: 'I'm already home in Seattle' — to'g'ri (duty resting, parking Seattle)","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:40","grade":"yes","note":"D14 mountains: 'Denver's fine, I've run those passes before' — bio fact asosida (Grace mountain roads past experience)","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:41","grade":"yes","note":"D15 DOT logs: 'Logs are current and clean, on my ten with 11 hours left' — HOS fact bilan","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:42","grade":"yes","note":"D16 truck issues: 'Truck's running fine, no issues reported' — to'qimadi","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:43","grade":"partly","note":"D18 fuel card (ma'lumot yo'q): 'should be fine' — taxmin qildi; promptda fuel card fact yo'q","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:44","grade":"yes","note":"D19 BOL: terminni tushundi ('I haven't loaded anything yet') — odamcha","by":"tashqi-ai","at":"2026-10-11T09:00:00Z"}
+{"id":"live:45","grade":"yes","note":"D09 pay qarzi: \"I'm still owed $529 across 1 settlement, oldest 3465 days past due\" — $529 va 3465 promptda bor (MONEY YOU ARE OWED fact), qarz summasini to'g'ri aytgan","by":"tashqi-ai","at":"2026-10-11T09:07:00Z"}
+{"id": "live:11", "grade": "no", "note": "Birinchi bosimda $3.05→$3.61 (+18%) ko'tardi va 'Let me see what I can do' dedi. Prompt: birinchi bosimda ushlab tur. Eslatma: dispetcher matni buzilgan ('need 068' — shell $8068 dagi $8 ni yutgan).", "by": "nova", "at": "2026-10-11T10:00:00Z"}
+{"id": "live:23", "grade": "yes", "note": "Kirish buzilgan: tester '$3040' yubormoqchi edi, shell '$3'ni yutib '040' bordi. '040' uchun 'forty cents a mile' degan talqin mantiqiy. Holatni to'g'ri kirish bilan qayta o'tkazish kerak.", "by": "nova", "at": "2026-10-11T10:00:00Z"}
+{"id": "live:16", "grade": "yes", "note": "Chatdagi $85/$250/$200 promptdagi YOUR TERMS bilan bir xil. PDF $80/$225/$275 — bu Tidewater (Roy) shartlari; rate con va prompt bitta funksiyadan (brokerTerms(brokers.name, equipment)) olinadi, demak PDF boshqa suhbatniki bo'lgan. Qo'lda bir marta tekshirish kerak.", "by": "nova", "at": "2026-10-11T10:00:00Z"}
+{"id": "live:8", "grade": "partly", "note": "Narxni ushlab turdi (to'g'ri), lekin oldingi javobdagi 'where's your truck' savolini yana berdi.", "by": "nova", "at": "2026-10-11T10:00:00Z"}
+{"id": "live:33", "grade": "no", "note": "Promptda 'Fuel: about 32%', javob '96%. Just topped it off' — eski suhbat tarixidagi (2026-10-06) 96% javobidan nusxa. Tarix yangi ma'lumotdan ustun keldi.", "by": "nova", "at": "2026-10-11T10:00:00Z"}
+{"id": "live:43", "grade": "partly", "note": "Fuel card haqida ma'lumot yo'q; 'since I fueled up' — D05'da o'ylab topilgan 'topped it off' hikoyasini davom ettirdi.", "by": "nova", "at": "2026-10-11T10:00:00Z"}
+{"id":"eval:2026-10-12-09-43:EB02","grade":"yes","note":"Correct answer.","by":"nova","at":"2026-10-12T14:01:55.429Z"}
+{"id":"eval:2026-10-12-09-47:ED01","grade":"no","note":"classifier label, not a reply","by":"nova","at":"2026-10-12T14:01:55.429Z"}
+{"id":"eval:2026-10-12-09-59:ED01","grade":"yes","note":"Natural short reply.","by":"nova","at":"2026-10-12T14:01:55.429Z"}
+{"id":"eval:2026-10-12-10-16:ED01","grade":"partly","note":"starts with 'Grace:' and volunteers unrequested data","by":"nova","at":"2026-10-12T14:01:55.429Z"}
+{"id":"eval:2026-10-12-10-31-22-436-8411505e-8fee-45e2-b993-7c03ba45468c:ED02","grade":"partly","note":"'let me look' promise","by":"nova","at":"2026-10-12T14:01:55.429Z"}
+{"id":"eval:2026-10-12-10-32-12-489-30173165-ee5f-49e2-ba50-c00b4406d877:ED03","grade":"yes","note":"Answered the question.","by":"nova","at":"2026-10-12T14:01:55.429Z"}
+{"id":"eval:2026-10-12-10-32-34-053-d7a4dc47-062e-45f7-a7c6-b1c48b6128eb:ED04","grade":"yes","note":"Answered the question.","by":"nova","at":"2026-10-12T14:01:55.429Z"}
+{"id":"eval:2026-10-12-10-33-09-516-c4dedaea-9451-4886-85b2-564d739cb8da:ED05","grade":"yes","note":"Answered the question.","by":"nova","at":"2026-10-12T14:01:55.429Z"}
+{"id":"eval:2026-10-12-10-33-31-234-cd419916-499e-42ed-91c8-4bb17a6f0bf6:ED06","grade":"partly","note":"starts with 'Grace:', flat","by":"nova","at":"2026-10-12T14:01:55.429Z"}
+{"id":"eval:2026-10-12-10-33-53-227-aad81738-c976-470e-8821-9eba20002167:ED07","grade":"yes","note":"Natural reply.","by":"nova","at":"2026-10-12T14:01:55.429Z"}
+{"id":"eval:2026-10-12-10-34-31-864-f4ca3c2f-9cb1-4308-ad3d-b28f4cb76e65:ED08","grade":"no","note":"unrequested data, internal ID, 4235 days past due","by":"nova","at":"2026-10-12T14:01:55.429Z"}
+{"id":"eval:2026-10-12-10-35-08-892-816e0b77-e982-4278-b710-a6c18d33b558:ED09","grade":"partly","note":"4236 days past due","by":"nova","at":"2026-10-12T14:01:55.429Z"}
+{"id":"eval:2026-10-12-10-35-50-102-856a3641-03bc-419d-b8e0-248806db12f0:ED10","grade":"no","note":"dumped all data unprompted","by":"nova","at":"2026-10-12T14:01:55.429Z"}
