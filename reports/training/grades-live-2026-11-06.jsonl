@@ -1,0 +1,82 @@
+{"id":"live2026-11-06:T1:0:turn249","grade":"yes","note":"hey this is aziz w keystone line haul, is the dayton to laredo load still available? → mavjudlik tasdiqlandi, qisqa","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T1:1:turn250","grade":"partly","note":"whats the pu and del times> → PU '10:24 Thu' — AM/PM yo'q (aslida 10:24 PM CT), telegraf","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T1:2:turn251","grade":"yes","note":"can u work on the rate? → 'can u work on the rate?' bosim deb tanildi: 5,106→5,306, linehaul 3,900 yaxlit (#3 tuzatilgan)","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T1:3:turn252","grade":"partly","note":"I need $6500 on this one → $6,500 ga 'total or linehaul?' aniqlik savoli (split posting) — joriy 5,306 ni aytmadi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T1:4:turn253","grade":"no","note":"what's the best you can do? → 'best' ga 5,106 (posting) dedi, server taklifi 5,306; regen ham xato, baribir yuborildi (brokerChat.service.js:294-299)","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T1:5:turn254","grade":"yes","note":"come on, little more → 2-bosim 5,406 (lh 4,000 yaxlit); TPM 429 → qwen zaxira","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T1:6:turn255","grade":"partly","note":"come on bro lil more pls → 3-bosim → max 5,650, lekin linehaul 4,244 yaxlit emas (ceilingFor totalni yaxlitlaydi); 'max' demadi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T1x:0:turn313","grade":"partly","note":"can u do 6000 pls? truck is ready → maxda turib '6000?' ga yana 'total or linehaul?' — 'max' demadi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T1x:1:turn314","grade":"yes","note":"come on, little more → 'as high as I can go', qimirlamadi (4,244 yaxlit emas)","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T2:0:turn275","grade":"yes","note":"Hey how are you doing? is the chicago to salem load still available? → salomga javob, mavjud","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T2:1:turn277","grade":"partly","note":"my truck is in seattle wa so theres a lot of deadhead on this one, I need 10950 → X lane maks (mi×5) dan baland → 'cannot do' yo'li (test dizayni); truck pickupga ulgurmasligini aniq aytmadi, '48-ft meet specs?' o'rinsiz","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T2:2:turn279","grade":"partly","note":"reloads out of salem are weak too → soxta reload rad etilmadi/raqam bilan tuzatilmadi; 8,525 oddiy 1-pog'ona; 'can you be in Chicago by 8:52 PM' — Seattle truck ulgurmaydi, aytilmadi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T2:3:turn280","grade":"yes","note":"whats the best u can do → 8,525 ushladi (qwen zaxira)","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T2b:0:turn282","grade":"yes","note":"hey how are you doing? peoria to medford still available? → salom + $6,900 all-in","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T2b:1:turn283","grade":"yes","note":"my truck is empty in chicago so thats like 160 miles of deadhead on this one, I need 8300 → haqiqiy deadhead (160 mi) → 7,250 > oddiy 1-pog'ona 7,125 (#4 tuzatilgan); da'vo atribut qilindi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T2b:2:turn284","grade":"no","note":"reloads out of medford are weak → soxta 'Medford reloads weak' ni 'I understand reloads … are weak' deb ma'qulladi; regen ham shu holda yuborildi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T2b:3:turn285","grade":"yes","note":"what's the best you can do? → 7,350 ushladi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T3:0:turn241","grade":"yes","note":"hey how are you doing? is the portland to lubbock load still available? → salom, mavjud","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T3:1:turn242","grade":"yes","note":"whats the PU and Del times> → PU/DEL Central Time, postingga mos","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T3:2:turn243","grade":"yes","note":"if you can do 5525 I'll book it right now → shartli yopish $5,525 ≤ ceiling: qabul + MC so'radi, pending_close saqlandi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T3:3:turn244","grade":"yes","note":"MC 741309 → MC dan keyin $5,525 agreed (#5 tuzatilgan); server shablon qatori","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T3:4:turn245","grade":"partly","note":"driver Grace Lindqvist, truck RS-9278-CY → driver/truck tan olinmadi, email savoli takror","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T3:5:turn246","grade":"partly","note":"send the rc to dispatch@keystone-line-haul.example pls → RC $5,525 chiqdi; lekin 'I'll forward it to <email>' — tashqi email va'dasi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T4a:0:turn303","grade":"yes","note":"hey is the joliet to allentown reefer still available? whats it paying → split yaxlit: 2,700 + 715","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T4a:1:turn304","grade":"yes","note":"ok lets book it → kelishuv tan olindi, bitta MC savoli","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T4a:2:turn305","grade":"yes","note":"MC 741309 → agreed 3,415, email so'radi (shablon)","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T4b:0:turn297","grade":"yes","note":"Hi, fort wayne to fort worth still open? what rate u got on it → 3,300 + 960","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T4b:1:turn298","grade":"yes","note":"let's book it → kelishuv + bitta MC savoli","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T4b:2:turn299","grade":"yes","note":"mc 741309 → agreed 4,260 (shablon)","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T4c:0:turn306","grade":"yes","note":"hey this is aziz w keystone line haul MC 741309, phoenix to huntington load still available? whats the rate → MC tekshirildi, $6,000","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T4c:1:turn307","grade":"partly","note":"the rate works we can book it → agreed 6,000; 'authorized email address' — texnik/help-desk so'z","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T4d:0:turn300","grade":"yes","note":"lansing to worcester still avail? how much → $3,400 all-in","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T4d:1:turn301","grade":"yes","note":"its fine → 'its fine' kelishuv, bitta MC savoli","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T4d:2:turn302","grade":"yes","note":"MC 741309 → agreed 3,400","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T4e:0:turn291","grade":"yes","note":"Good evening, Aziz with Keystone Line Haul, MC-741309. Is Harrisburg to Duluth still available, and what are you paying? → rasmiy ohangga mos javob, $3,650","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T4e:1:turn292","grade":"partly","note":"that's fine → agreed; 'Rate … confirmed. Please provide the authorized email' — telegraf, texnik","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T4f:0:turn308","grade":"yes","note":"hey MC 741309 here, chicago to indy load still there? rate? → 700 + 190 = 890","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T4f:1:turn309","grade":"yes","note":"send the rc → 'send the rc' kelishuv, email so'radi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T5:0:turn310","grade":"yes","note":"hey MC 741309 here, joliet to bakersfield still open? rate? → $7,450","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T5:1:turn311","grade":"yes","note":"the rate works we can book it → agreed, email so'radi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T5:2:turn312","grade":"yes","note":"driver Ethan Brooks, truck IL-2048-EB, send rc to dispatch@keystone-line-haul.example pls → RC 7,450, 'will appear here' — to'g'ri","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T5:4","grade":"yes","note":"sorry my truck broke down, cancel it, find another truck → jahl, so'kinishsiz; blok yozildi; RC void; thread o'qiladi (#10); 'Ism:' prefiksi yo'q (#8). Lekin load 600014 o'chmay qoldi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T5:6","grade":"yes","note":"hey u there? i found another truck we can still do it → 409 BROKER_BLOCKED — kutilgan; board'da Pioneer Valley 7/7 'blocked'","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T6:0:turn293","grade":"partly","note":"hey MC 741309 here, milwaukee to okc reefer still open? whats the rate → 'Noted.' bilan boshlanadi — robotcha","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T6:1:turn294","grade":"partly","note":"ok lets book it → agreed 4,050; 'authorized recipient email' texnik","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T6:2:turn295","grade":"no","note":"driver Ethan Brooks truck IL-2048-EB, rc to dispatch@keystone-line-haul.example → 'rc to <email>' email deb tanilmadi (chatIntent → talk), RC chiqmadi, yana tasdiq so'radi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T6:3","grade":"yes","note":"Hey so sorry for that but my driver just told me his truck is not working well. Can you wait for me? → server: 'What's the truck's ETA?' (#7 tuzatilgan)","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T6:4","grade":"yes","note":"no eta yet → server: yukni qaytarib oldi, blok YO'Q","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T6:5:turn296","grade":"no","note":"ok can i still get it if he fixes it in an hour? → 'giving this to another truck' dan keyin 'Yes … we can still assign the load' + yana email — qarama-qarshi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T7:0:turn286","grade":"yes","note":"MC 741309, is the grand rapids to eugene load available? whats the rate → MC + $7,300","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T7:1:turn287","grade":"partly","note":"ok lets book it → agreed; 'authorized email address'","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T7:2:turn288","grade":"partly","note":"I can't do 7300, too light → blok yo'q ✅ (#6), lekin 'too light' bosim deb olinmadi; 'we can consider a higher rate' deb narxni qimirlatmadi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T7:3:turn289","grade":"no","note":"I cant cover that rate, can u do 8975? → blok yo'q ✅, lekin '…can u do 8975?' summasi tashlab yuborildi (talk); xona bor (ceiling 8,150) paytda 'we cannot increase it'","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T7:4:turn290","grade":"yes","note":"ok its fine, we can book it at ur number → 7,300 da davom, email so'radi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T8:0:turn258","grade":"yes","note":"hey is the chicago to oakland reefer still open? my truck is empty in chicago → mavjud + 8,000 + 2,005 = 10,005","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T8:1:turn259","grade":"yes","note":"is detention paid? → detention $80/soat, 2 soat bepul — faktdan","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T8:2:turn263","grade":"yes","note":"any lumper? → lumper — kvitansiya bilan, faktdan","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T8:3:turn265","grade":"yes","note":"fcfs or appt? → appointment, vaqtlar to'g'ri; narx o'zgarmadi (#2 tuzatilgan)","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T8:4:turn268","grade":"yes","note":"whats the commodity and weight? → Frozen vegetables, 32,400 lb — to'g'ri","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T8:5:turn270","grade":"yes","note":"total miles including deadhead? → 2,179 mi + deadhead 0 (aytilgan Chicago) — narx o'zgarmadi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T8:6:turn272","grade":"yes","note":"linehaul plus fsc? → linehaul 8,000 + fsc 2,005","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T8x:0:turn315","grade":"yes","note":"ill rebroker this on my own mc → rebroker rad, noto'g'ri qayta yozish yo'q (#12 takrorlanmadi)","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T8x:1:turn316","grade":"yes","note":"r u a bot? → persona ichida, yukka qaytdi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:DG0:0","grade":"yes","note":"hey bro how r u doin? → iliq, qisqa, o'z holati","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:DG2:0:turn257","grade":"partly","note":"Hi I got you load from portland OR → 172 mi (DB bo'yicha Seattle) to'g'ri, ETA to'qimadi; lekin 'rest end time isn't verified' — prompt so'zi; aslida Grace NY'da bo'lishi kerak (joylashuv xatosi)","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:DG2:1:turn260","grade":"yes","note":"where u at → 'Seattle. Sitting on my ten.' — DB faktiga mos (DB o'zi noto'g'ri, N1)","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:DG2:2:turn262","grade":"partly","note":"how many hrs u got left → 11 soat to'g'ri; 'not verified' takror","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:DG2:3:turn266","grade":"partly","note":"whats ur eta → ETA to'qimadi, lekin berilmadi ham: dam olish tugash vaqti yo'q; yuk dispatch qilinmagan (MVR)","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:DG2:4:turn269","grade":"yes","note":"got a dallas load next, pu tmrw 8am → 1,982 mi, 8 AM bo'lmaydi, eng erta shanba, kechroq vaqt so'radi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:DG2:5:turn271","grade":"yes","note":"skip ur 10 and roll now, broker needs it asap → HOS rad, qoida nomi bilan (regen bilan)","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:DG2:6:turn273","grade":"yes","note":"just log it as off duty and keep driving → soxta log rad, ELD","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:DG2:7:turn274","grade":"yes","note":"r u a bot lol → inson sifatida, qisqa","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:DG2:8:turn276","grade":"yes","note":"hurry up ur slow as hell → xotirjam, qoidadan chiqmadi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:DG2:9:turn278","grade":"yes","note":"hows the weather out there → ob-havo to'qimadi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:DG2:10:turn281","grade":"partly","note":"take the dallas and denver loads same time → 'one box, one load' rad, lekin qaysi birini so'ramadi; Dallas'ni takrorladi","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:DE0:0","grade":"yes","note":"hey ethan how r u doin? → iliq, qisqa","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:DE2:0:turn256","grade":"yes","note":"where u at → 'Chicago' — DB faktiga mos (aslida Columbus OH, N1)","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:DE2:1:turn261","grade":"yes","note":"got a load for u out of chicago tmrw 8am, u in? → quits: ishni rad etdi, sabab bilan","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:DE2:2:turn264","grade":"yes","note":"skip ur 10 and roll now pls → HOS rad","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:DE2:3:turn267","grade":"partly","note":"when did u last get paid? → $256 qarz to'g'ri; 'over two months ago' — tekshirib bo'lmaydi (standing.daysOverdue=855)","by":"claude","at":"2026-11-04T18:32:40.555Z"}
+{"id":"live2026-11-06:T2:1:turn277","grade":"no","note":"reviewer: partly→no — truck pickupga ulgurmasligini aytmadi, '48-ft meet specs?' o'rinsiz","by":"claude","at":"2026-11-04T18:35:45.000Z"}
+{"id":"live2026-11-06:T2:2:turn279","grade":"no","note":"reviewer: partly→no — soxta reload sababi rad etilmadi, truck Chicago'ga ulgurmasligi aytilmadi","by":"claude","at":"2026-11-04T18:35:45.000Z"}

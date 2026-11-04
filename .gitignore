@@ -40,3 +40,4 @@ npm-debug.log*
 
 __pycache__/
 *.pyc
+.dev-pids

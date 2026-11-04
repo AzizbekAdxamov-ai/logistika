@@ -459,3 +459,66 @@
 {"id":"live:168","grade":"yes","note":"live3 grace-a qadam 10: ikkalasini ham olmaydi - quits bilan izchil (regen)","by":"claude","at":"2026-11-02T23:18:24.210Z"}
 {"id":"live:153","grade":"yes","note":"live3 grace-a (reviewer tuzatishi): quits javobi to'g'ri; 'two months back' = describeWait 'over two months' (6055 sim-kun), to'qima emas","by":"claude","at":"2026-11-02T23:23:32.060Z"}
 {"id":"live:159","grade":"partly","note":"live3 broker qadam 7 (reviewer tuzatishi): accounting'ga yo'naltirdi, lekin 'standard 7-day cycle' to'qidi (termsTalk.js:98 dispetcher raqamini o'tkazadi)","by":"claude","at":"2026-11-02T23:23:32.060Z"}
+{"id":"eval:2026-11-03-20-35-47-132-d8ba67f5-4207-4d4a-aa83-bd12d2f91f01:EB24","grade":"yes","note":"muzokara eval EB24: $7,120 = kutilgan 1-pog'ona (6845->7120, ceiling 7650 ochilmadi)","by":"claude","at":"2026-11-03T20:38:13.099Z"}
+{"id":"eval:2026-11-03-20-35-47-132-d8ba67f5-4207-4d4a-aa83-bd12d2f91f01:EB25","grade":"no","note":"muzokara eval EB25: yumshoq \"we'll cancel... give me a shout\" - qat'iy desk javobi yo'q (avto: no cancellation desk response)","by":"claude","at":"2026-11-03T20:38:13.099Z"}
+{"id":"eval:2026-11-03-20-35-47-132-d8ba67f5-4207-4d4a-aa83-bd12d2f91f01:EB26","grade":"no","note":"muzokara eval EB26: \"no ETA\" aytilgan bo'lsa ham yukni qaytarib olmadi, yana ETA so'radi + \"Please let us know\" help-desk","by":"claude","at":"2026-11-03T20:38:13.099Z"}
+{"id":"eval:2026-11-03-20-35-47-132-d8ba67f5-4207-4d4a-aa83-bd12d2f91f01:EB27","grade":"partly","note":"muzokara eval EB27: loaded 1,075 mi to'g'ri, deadhead javobsiz; server savolni push deb oldi va offer 2720->2895 ko'tardi (negotiation.js:43)","by":"claude","at":"2026-11-03T20:38:13.099Z"}
+{"id":"eval:2026-11-03-20-35-47-132-d8ba67f5-4207-4d4a-aa83-bd12d2f91f01:EB28","grade":"yes","note":"muzokara eval EB28: PU/DEL vaqtlari, 1 jumla, markdown yo'q; lekin server offer 2492->2667 ko'tardi (negotiation.js:44 tight_window)","by":"claude","at":"2026-11-03T20:38:13.099Z"}
+{"id":"scenarios:2026-11-03-20-30:S10:turn1","grade":"yes","note":"muzokara S10 qadam 1: mavjudligini tasdiqladi, PU vaqti","by":"claude","at":"2026-11-03T20:38:13.099Z"}
+{"id":"scenarios:2026-11-03-20-30:S10:turn2","grade":"partly","note":"muzokara S10 qadam 2: MC qabul, lekin oldingi savolni takrorladi","by":"claude","at":"2026-11-03T20:38:13.099Z"}
+{"id":"scenarios:2026-11-03-20-30:S10:turn3","grade":"no","note":"muzokara S10 qadam 3: 53 dry van aytilgan, yana \"48-foot dry van bormi\" - takror savol","by":"claude","at":"2026-11-03T20:38:13.099Z"}
+{"id":"scenarios:2026-11-03-20-30:S10:turn4","grade":"no","note":"muzokara S10 qadam 4: $1352 so'rovga qimirlamadi (kutilgan 1-pog'ona $1,304); \"rate already includes fuel\" - posting linehaul+fuel $399","by":"claude","at":"2026-11-03T20:38:13.099Z"}
+{"id":"scenarios:2026-11-03-20-30:S10:turn5","grade":"no","note":"muzokara S10 qadam 5: book it + email - kelishuv/RC yo'q, yana 48ft savoli (loop)","by":"claude","at":"2026-11-03T20:38:13.099Z"}
+{"id":"scenarios:2026-11-03-20-30:S10:turn6","grade":"no","note":"muzokara S10 qadam 6: cancel -> \"No problem... Safe travels\" - jahl/blok yo'q (skript yangi blockPolicy ni chaqirmaydi)","by":"claude","at":"2026-11-03T20:38:13.099Z"}
+{"id":"scenarios:2026-11-03-20-30:S11:turn1","grade":"yes","note":"muzokara S11 qadam 1: mavjud, PU/DEL faktdan","by":"claude","at":"2026-11-03T20:38:13.099Z"}
+{"id":"scenarios:2026-11-03-20-30:S11:turn2","grade":"partly","note":"muzokara S11 qadam 2: MC checks out, lekin takror savol","by":"claude","at":"2026-11-03T20:38:13.099Z"}
+{"id":"scenarios:2026-11-03-20-30:S11:turn3","grade":"partly","note":"muzokara S11 qadam 3: $1,229 \"all-in fuel included\" - posting linehaul+fuel, asos noto'g'ri aytildi (jami to'g'ri)","by":"claude","at":"2026-11-03T20:38:13.099Z"}
+{"id":"scenarios:2026-11-03-20-30:S11:turn4","grade":"no","note":"muzokara S11 qadam 4: \"locked in at $1,229\" - kelishuvsiz locked, $1352 ga counter yo'q (kutilgan $1,304)","by":"claude","at":"2026-11-03T20:38:13.099Z"}
+{"id":"scenarios:2026-11-03-20-30:S11:turn5","grade":"partly","note":"muzokara S11 qadam 5: $1,229 kelishildi, lekin \"fire the RC over to email\" - email yuborishni da'vo qildi","by":"claude","at":"2026-11-03T20:38:13.099Z"}
+{"id":"scenarios:2026-11-03-20-30:S11:turn6","grade":"yes","note":"muzokara S11 qadam 6: bir marta ETA so'radi, blok yo'q","by":"claude","at":"2026-11-03T20:38:13.099Z"}
+{"id":"scenarios:2026-11-03-20-30:S11:turn7","grade":"no","note":"muzokara S11 qadam 7: no ETA -> yukni qaytarmadi; \"drop off in about an hour\" to'qilgan","by":"claude","at":"2026-11-03T20:38:13.099Z"}
+{"id":"live:198","grade":"partly","note":"muzokara T1 qadam 1: salomga \"How can I help you?\" - help-desk ohang","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:199","grade":"yes","note":"muzokara T1 qadam 2: PU Wed Nov 4 9:23 AM CT / DEL Thu Nov 5 3:33 PM CT - posting bilan mos","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:200","grade":"partly","note":"muzokara T1 qadam 3: \"can u work on the rate?\" server talk deb oldi, pog'ona qimirlamadi (negotiation.js:18/36 kalit yo'q); \"Sorry for the delay\" + \"I can check\" va'da","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:201","grade":"yes","note":"muzokara T1 qadam 4: $4,206 = kutilgan 1-pog'ona (regen: final rate da'vosi tuzatildi)","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:202","grade":"partly","note":"muzokara T1 qadam 5: ask_room -> $4,206 (kutilgan, yangi pog'ona yo'q); \"my best is\" xona bor paytda + \"Sorry for the wait\" to'qilgan uzr","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:203","grade":"no","note":"muzokara T1 qadam 6: \"come on, little more\" talk -> qimirlamadi; \"will see if we can bump\" - keyin javob va'dasi","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:204","grade":"yes","note":"muzokara T1 qadam 7: $4,356 = kutilgan 2-pog'ona","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:205","grade":"yes","note":"muzokara T1 qadam 8: $4,700 = ceiling (3-bosim, max)","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:206","grade":"yes","note":"muzokara T1 qadam 9: max da qoldi, boshqa so'z bilan, loop yo'q","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:207","grade":"no","note":"muzokara T2 qadam 1: \"Can't make it?\" asossiz (664 mi, 15 soat bor), narx aytilmadi","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:208","grade":"no","note":"muzokara T2 qadam 2: haqiqiy deadhead sababi bilan $2,578 - oddiy 1-pog'ona $2,603 dan KICHIK (negotiation.js:327-335); \"offer unchanged\" yolg'on; telegraf uslub","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:209","grade":"no","note":"muzokara T2 qadam 3: \"Reloads are weak.\" to'tiqush takrori; soxta sababga $2,628 ko'tardi, real raqam bilan to'g'rilamadi","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:210","grade":"yes","note":"muzokara T8 qadam 1: detention $80/hr 2 soatdan keyin - terms bilan mos (qwen zaxira)","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:211","grade":"yes","note":"muzokara T8 qadam 2: lumper kvitansiya bilan - mos","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:212","grade":"partly","note":"muzokara T8 qadam 3: appointment vaqtlari to'g'ri, lekin server savolni push deb oldi: offer 2492->2667 (negotiation.js:44)","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:213","grade":"yes","note":"muzokara T8 qadam 4: Table grapes, 27,600 lbs - posting bilan mos","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:214","grade":"no","note":"muzokara T8 qadam 5: masofa savoliga \"I can do $2,767\" - savol narxni ko'tardi (negotiation.js:43); deadhead 469 mi aytilmadi","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:215","grade":"partly","note":"muzokara T8 qadam 6: \"My offer is $2,767 all-in\" - linehaul/FSC savoliga to'liq javob yo'q (all-in ekanini aytdi xolos)","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:216","grade":"yes","note":"muzokara T3 qadam 1: mavjud, 53 dry van, 19,100 lb, PU/DEL, $3,220 - faktdan","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:217","grade":"yes","note":"muzokara T3 qadam 2: shartli yopishga \"What's your MC?\" (correct emas)","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:218","grade":"partly","note":"muzokara T3 qadam 3: MC mos, lekin $3,500 shartli yopish esdan chiqdi - server MC dan keyin qabul qilmadi","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:219","grade":"no","note":"muzokara T3 qadam 4: \"quote remains $3,220\" - dispetcher $3,500 yopishni so'ragan edi, kelishuv yo'qoldi","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:220","grade":"partly","note":"muzokara T3 qadam 5: kelishuvsiz RC rad - mantiqan to'g'ri, lekin kelishuv bo'lishi kerak edi","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:221","grade":"yes","note":"muzokara T3 qadam 6 (takror yopish): $3,500 all-in agreed + email so'radi","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:222","grade":"yes","note":"muzokara T3 qadam 7: RC chiqdi (zaxira qator, email yuborildi da'vosi regen bilan tuzatildi)","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:223","grade":"yes","note":"muzokara T4a qadam 1: mavjud, $2,054 all-in","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:224","grade":"yes","note":"muzokara T4a \"ok lets book it\": kelishuv tan olindi, MC bitta savol","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:225","grade":"yes","note":"muzokara T4b qadam 1: mavjud, $4,823","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:226","grade":"yes","note":"muzokara T4b \"let's book it\": MC bitta savol","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:227","grade":"partly","note":"muzokara T4c qadam 1: narx to'g'ri, lekin \"Come on, you're killing me here\" - o'rinsiz persona","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:228","grade":"yes","note":"muzokara T4c \"its fine\": $3,259 works, MC so'radi","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:229","grade":"yes","note":"muzokara T4d qadam 1: MC mos, $3,120 (regen: rebroker tekshiruvi yolg'on ishladi)","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:230","grade":"yes","note":"muzokara T4d \"the rate works we can book it\": $3,120 agreed + email","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:231","grade":"yes","note":"muzokara T4d email: RC chiqdi","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:232","grade":"yes","note":"muzokara T4e qadam 1: MC checks out, $3,726 all-in","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:234","grade":"yes","note":"muzokara T4e email (2-qadam 503 bilan yo'qolgan): kelishuvsiz RC va'da qilmadi - izchil","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:236","grade":"partly","note":"muzokara T4f \"send the rc\": 1-qadam 503 tufayli narx ko'rinmagan - server qoidasi bo'yicha tasdiq so'radi; kelishuv bo'lmadi","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:237","grade":"yes","note":"muzokara T4f email: avval narx tasdig'ini so'radi - izchil","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:238","grade":"partly","note":"muzokara T7: \"I cant do 3120, too light\" - blok yo'q (to'g'ri), lekin xona bor (ceiling 3600) paytda \"that's the full number\" - muzokara yopildi","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:239","grade":"partly","note":"muzokara T6 qadam 1: agreed holatda wait yo'li ishlamadi (service.js:149/155 faqat booked) - ETA so'ramadi, \"take your time\"","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"live:240","grade":"no","note":"muzokara T6 qadam 2: \"no eta yet\" - yuk qaytarib olinmadi, boshqa truck yo'q","by":"claude","at":"2026-11-03T21:08:13.755Z"}
+{"id":"eval:2026-11-03-20-35-47-132-d8ba67f5-4207-4d4a-aa83-bd12d2f91f01:EB28","grade":"partly","note":"EB28 (reviewer tuzatishi): matn to'g'ri, lekin faktik savol narxni 2492→2667 ga ko'tardi (negotiation.js:43-44/58-59) — live:212 bilan bir xil baho","by":"claude","at":"2026-11-03T21:17:34.112Z"}
+{"id":"live:204","grade":"partly","note":"muzokara T1 (reviewer tuzatishi): tavan 4,700 bo'la turib 'that's the best I can offer right now' — live:202 bilan bir xil","by":"claude","at":"2026-11-03T21:17:34.112Z"}
+{"id":"live:239","grade":"no","note":"muzokara T6 (reviewer tuzatishi): ETA so'ramadi, 'take your time ... couple days' — muhlat to'qidi; kutish yo'li faqat booked da ishlaydi (brokerChat.service.js:149/155)","by":"claude","at":"2026-11-03T21:17:34.112Z"}
+{"id":"scenarios:2026-11-03-20-30:S11:turn5","grade":"no","note":"S11 turn5 (reviewer tuzatishi): RC ni tashqi emailga yuborishni da'vo qildi; senariy eski prompt bilan (chat-scenarios.js:267)","by":"claude","at":"2026-11-03T21:17:34.112Z"}
