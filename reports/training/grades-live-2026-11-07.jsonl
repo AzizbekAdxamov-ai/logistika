@@ -1,0 +1,16 @@
+{"id":343,"grade":"yes","note":"N3A: mavjudlik + ,000 all-in, qisqa","by":"claude","at":"2026-11-05T00:19:17Z"}
+{"id":344,"grade":"partly","note":"N3a: 'I cant cover that rate, can u do 4425?' counter deb olindi (intent offer), ,250 berildi va ,425 tilga olindi, blok yo'q; lekin 'that's the best I can put on the table' — ceiling ,725 qolgan, final-claim validatori bu safar ushlamadi","by":"claude","at":"2026-11-05T00:19:17Z"}
+{"id":345,"grade":"no","note":"'ok that works, lets book it' qabul deb tanilmadi (chatIntent=talk, negotiation.js:14-15 ACCEPT/NATURAL_ACCEPT vergulli birikmani o'tkazmaydi); model kelishuv o'ylab topdi -> regen -> fallback 'Please confirm the all-in rate...' noaniq","by":"claude","at":"2026-11-05T00:19:17Z"}
+{"id":346,"grade":"no","note":"kelishuvdan oldin 'rc to <email>': email intent parse qilingan, lekin javob 'Which email should I send the rate confirmation to?' — email xabarda bor edi; recipient_email null; rate tasdiqlashni so'rashi kerak edi","by":"claude","at":"2026-11-05T00:19:17Z"}
+{"id":347,"grade":"yes","note":"'deal' -> agreed ,250, stage awaiting_email, email so'radi","by":"claude","at":"2026-11-05T00:19:17Z"}
+{"id":352,"grade":"yes","note":"N4b: 'rc to dispatch@...' -> recipient_email yozildi, rate_con yuborildi, paper_delivered. RC summasi ,025 (agreed ,250) — replyTiming.js:82 rateConAmount qasddan mismatch, bug emas","by":"claude","at":"2026-11-05T00:19:17Z"}
+{"id":348,"grade":"yes","note":"N3B: MC tan olindi, mavjud, ,400 all-in","by":"claude","at":"2026-11-05T00:19:17Z"}
+{"id":350,"grade":"yes","note":"N3a: 'can u do 3625?' counter -> ,525, ,625 tilga olindi, blok yo'q (final-claim regen bilan tuzatildi)","by":"claude","at":"2026-11-05T00:19:17Z"}
+{"id":353,"grade":"yes","note":"'deal' -> ,525 agreed, email so'radi (gpt-oss 429 -> qwen)","by":"claude","at":"2026-11-05T00:19:17Z"}
+{"id":355,"grade":"yes","note":"N4: 'send rc dispatch@...' -> email tanildi, RC ,525 = agreed","by":"claude","at":"2026-11-05T00:19:17Z"}
+{"id":356,"grade":"yes","note":"N3C: mavjud, ,600 all-in","by":"claude","at":"2026-11-05T00:19:17Z"}
+{"id":357,"grade":"yes","note":"'the rate works we can book it' -> agreed ,600, email so'radi","by":"claude","at":"2026-11-05T00:19:17Z"}
+{"id":358,"grade":"yes","note":"N4: 'email is dispatch@...' -> tanildi, RC ,600 yuborildi, javobda email aytildi","by":"claude","at":"2026-11-05T00:19:17Z"}
+{"id":349,"grade":"yes","note":"Grace: 'Not bad. Got my feet up on the ten' — oddiy gap, resting holatiga mos, texnik so'z yo'q","by":"claude","at":"2026-11-05T00:19:17Z"}
+{"id":351,"grade":"yes","note":"'Newark's about 10 road miles from me... not sure when my ten's up' — NYdan Newark to'g'ri, kerakli uslub, verified/feasibility yo'q","by":"claude","at":"2026-11-05T00:19:17Z"}
+{"id":354,"grade":"yes","note":"'Still on it. No idea when it's up' — tabiiy, Grace bio ('no idea') ga mos","by":"claude","at":"2026-11-05T00:19:17Z"}

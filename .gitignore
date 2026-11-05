@@ -31,6 +31,9 @@ npm-debug.log*
 .env.*.local
 *.env
 !.env.example
+.env.bak-*
+*.env.bak*
+/tmp-loadboard-build/
 
 # frontend/ va backend/ oʻzlarining alohida git repolariga koʻchirildi
 # (dispatchsim-frontend, dispatchsim-backend) — bu yerda faqat ishchi nusxa,
